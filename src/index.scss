@@ -15,7 +15,7 @@ body {
   flex-direction: column;
 }
 
-.home-container {
+.content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +46,5 @@ body {
     &:hover {
       color: red;
     }
-
   }
-
 }
