@@ -4,8 +4,8 @@ import Layout from "./components/Layout"
 function App() {
   return (
     <main className="container">
-      <Layout />
-      <NavBar />
+        <Layout />
+        <NavBar />
     </main>
   )
 }
