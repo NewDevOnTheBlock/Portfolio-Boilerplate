@@ -6,11 +6,11 @@ import {
   FaGithub,
   FaLinkedin,
   FaCode,
+
 } from "react-icons/fa";
 
 
 function NavBar() {
-
 
   return (
     <nav className="nav">
