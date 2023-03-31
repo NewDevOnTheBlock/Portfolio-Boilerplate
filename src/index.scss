@@ -219,7 +219,6 @@ body {
     margin-bottom: 4px;
     text-decoration: underline;
     color: rgb(100, 23, 223);
-
   }
 
 }
@@ -327,8 +326,6 @@ body {
   h2 {
     color:rgb(255, 57, 235);
     text-decoration: underline;
-    margin-bottom: 12px;
-    margin-top: 12px; 
   }
 }
 
@@ -504,6 +501,7 @@ body {
   .content-container {
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
   }
 
   .home-content {
@@ -610,7 +608,7 @@ body {
 
   .projects-container {
     height: 80vh;
-    margin: 16px;
+    overflow-y:hidden;
   }
 
   .projects-grid {
