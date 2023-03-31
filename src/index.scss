@@ -303,6 +303,8 @@ body {
   }
 }
 
+//////////////////////////////////////////////////////////////
+
 /* Projects */
 .projects-container {
   display: flex;
@@ -387,6 +389,8 @@ body {
   margin-bottom: 8px;
   border-radius: 4px;
 }
+
+//////////////////////////////////////////////////////////////
 
 @media screen and (min-width: 430px) {
   .container {
@@ -474,8 +478,8 @@ body {
   }
 
   .name-1 {
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -499,8 +503,8 @@ body {
   }
   
   .title-1 {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
