@@ -1,3 +1,5 @@
+/* General Rules */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,8 +23,6 @@ body {
   // justify-content: center; // * this is fucking shit up, change it soon
 }
 
-
-
 .content-container {
   display: flex;
   flex-direction: column;
@@ -30,6 +30,8 @@ body {
   align-items: center;
 
 }
+
+////////////////////////////////////////
 
 /* Navigation */
 .nav {
@@ -96,8 +98,6 @@ body {
   }
 }
 
-/* About */
-
 .icon-large {
   width: 20px;
   height: 20px;
@@ -113,6 +113,10 @@ body {
   height: 50px;
   margin: 10px 0px;
 }
+
+/////////////////////////////////////////
+
+/* homepage */
 
 .name-1 {
   width: 200px;
@@ -157,7 +161,6 @@ body {
 
 }
 
-
 .title-1 {
   width: 200px;
   height: 100px;
@@ -170,6 +173,8 @@ body {
 .home-content {
   justify-content: space-evenly;
 }
+
+////////////////////////////////////////
 
 /* About */
 .about-card {
@@ -392,6 +397,8 @@ body {
 
 //////////////////////////////////////////////////////////////
 
+/* tablet view */
+
 @media screen and (min-width: 430px) {
   .container {
     flex-direction: column;
@@ -429,6 +436,10 @@ body {
   // fix image sizes
   // fix about me font size, adjust containers flex rules
 }
+
+///////////////////////////////////////
+
+/* Desktop view */
 
 @media screen and (min-width: 840px) {
   body {
